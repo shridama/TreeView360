@@ -1,0 +1,105 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f4f8;
+  color: #2e3d49;
+  overflow-x: hidden; /* Prevents horizontal scroll */
+}
+
+header {
+  background-color: #4CAF50; /* Green header for a fresh look */
+  color: #ffffff;
+  padding: 1.5em 0;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#main-content {
+  margin: 2em auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.input-section {
+  background-color: #ffffff;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  border-left: 6px solid #4CAF50;
+}
+
+input[type="text"] {
+  width: 85%;
+  padding: 0.7em;
+  margin-top: 1em;
+  font-size: 1.1em;
+  border-radius: 4px;
+  border: 2px solid #4CAF50;
+}
+
+label {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+button {
+  margin-top: 1.5em;
+  background-color: #FF5722; /* Bright orange for buttons */
+  color: white;
+  font-size: 1.2em;
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #E64A19;
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+#visual-section {
+  margin-top: 2em;
+  text-align: center;
+  overflow-x: auto; /* Allows scrolling horizontally if necessary */
+  max-width: 100%;
+}
+
+#visual-section svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #4CAF50;
+  color: #ffffff;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 3em;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#visual-title {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #FF5722;
+  margin-bottom: 1em;
+}
+
+#instructions {
+  margin-bottom: 2em;
+  font-size: 1.2em;
+  color: #2e3d49;
+}
+
+#binary-tree, #array-visual {
+  margin-top: 1em;
+  display: inline-block;
+}
